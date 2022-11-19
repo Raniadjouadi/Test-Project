@@ -4,7 +4,6 @@ import {
   Row,
   Col,
   Form,
-  Button,
   FormControl,
 } from "react-bootstrap";
 
@@ -22,9 +21,7 @@ const Search = ({ word, setWord, handleSubmit }) => {
             />
           </Form>
           <br></br>
-          <Button variant="primary" type="submit">
-            Search
-          </Button>
+          
         </Col>
       </Row>
     </Container>
